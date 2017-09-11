@@ -1,5 +1,5 @@
 #!/bin/bash
 
-echo "Test"
+echo "Test 1"
 
 exit
