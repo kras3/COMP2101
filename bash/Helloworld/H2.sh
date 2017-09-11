@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cat EOF "HELLO WORLD! I am process # $$" EOF
+cat <<EOF "HELLO WORLD! I am process # $$""
 
 exit
