@@ -7,4 +7,7 @@ mytitle="Supreme Commander"
 myhostname=$(hostname)
 weekday=$(date +%A)
 
-echo "Welcome to $myhostname, $mytitle $MYNAME! Today is $weekday."
+cat <<EOF
+Welcome to $myhostname, $mytitle $MYNAME!
+Today is $weekday.
+EOF
